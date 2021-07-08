@@ -1,0 +1,472 @@
+.slider {
+  width: 100%;
+}
+
+.svg-white {
+  color: white;
+  margin-right: 1vh;
+}
+
+.svg-white:hover {
+  color: white;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+ul.slick-dots {
+  position: relative;
+  top: -40px;
+}
+.slick-prev {
+  left: 55px !important;
+  z-index: 1;
+}
+.slick-next {
+  z-index: 1;
+  right: 55px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slick-prev,
+.slick-next {
+  color: black;
+}
+
+.main-joias > .itens-joias {
+  margin-top: 50px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: "um dois tres" "quatro cinco tres";
+  grid-template-columns: 33%;
+  height: 100%;
+}
+.itens-joias > div > figure > img {
+  height: 60%;
+}
+
+#um {
+  grid-area: um;
+}
+
+#dois {
+  grid-area: dois;
+}
+
+#tres {
+  grid-area: tres;
+}
+#tres > figure > img {
+  width: 100%;
+}
+
+#quatro {
+  grid-area: quatro;
+}
+
+#cinco {
+  grid-area: cinco;
+}
+
+.item-joia:hover img {
+  transform: scale(1, 1);
+}
+
+.img-anel {
+  width: 70% !important;
+}
+
+.valores-anel,
+.descricao-anel > div > div {
+  display: block;
+  text-align: center;
+}
+
+.botton-espiar {
+  position: relative;
+  bottom: 170px;
+}
+
+.adicionar__sacola {
+  display: flex;
+  justify-content: center;
+}
+
+.input_adicionar__sacola {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  max-width: 100%;
+  border-radius: 30px;
+  height: 35px;
+  background: var(--cor-primaria);
+  margin-top: 2vh;
+}
+
+.adicionar-sacola {
+  background: var(--cor-primaria);
+  color: white;
+  cursor: pointer;
+}
+
+.input_more_frete {
+  justify-content: center;
+  width: 100px;
+  height: 25px;
+  display: flex;
+  border-radius: 30px;
+}
+
+.morevendid {
+  background: var(--cor-primaria);
+}
+
+.frete-free {
+  background: var(--cor-fundo-botão-2);
+}
+
+.espiar {
+  background: var(--cor-secundaria);
+}
+
+.morevendid_input {
+  background: var(--cor-primaria);
+  color: white;
+}
+
+.espiar_input {
+  background: var(--cor-secundaria);
+  color: var(--cor-tercenaria);
+  cursor: pointer;
+}
+
+.frete__free_input {
+  background: var(--cor-fundo-botão-2);
+  color: white;
+}
+
+.descricao-anel {
+  margin-top: 2vh;
+}
+
+.aviso-button-anel-1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0.8vh;
+}
+
+.botton-espiar,
+.aviso-button-anel-2,
+.aviso-button-anel-4,
+.aviso-button-anel-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.adicionar__sacola,
+.botton-espiar {
+  display: none;
+}
+
+.item____anel:hover .botton-espiar {
+  display: flex;
+}
+
+.item____anel:hover .adicionar__sacola {
+  display: flex;
+}
+
+.responsive {
+  font-family: Arial;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.itens-relatos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.relatos {
+  margin: 5vh 2vh 0 2vh;
+}
+
+.nov-dest {
+  display: flex;
+  justify-content: space-between;
+}
+
+.novidades-destaque {
+  display: flex;
+  justify-content: center;
+  margin: 0 2.5vh 0 2.5vh;
+}
+
+.img-novi-dest {
+  width: 98%;
+  margin: 1vh;
+}
+
+.img-novi-dest:hover {
+  filter: blur(10px);
+}
+
+.texto-novidades{
+  position: relative;
+  bottom: 42.44604316546763vh;
+  left: 24.46043165467626vh;
+}
+
+.texto-destaque{
+  position: relative;
+  bottom: 42.44604316546763vh;
+  left: 26.46vh;
+}
+
+div.texto-destaque > .text-destaque > h3,.texto-novidades>.text-novidades >h3 {
+  left: 474px;
+  width: 306px;
+  height: 113px;
+  color: var(--unnamed-color-ffffff);
+  text-align: center;
+  font-family: Great Vibes !important;
+  font: normal normal normal 90px/113px Great Vibes;
+  letter-spacing: 0px;
+  color: var(--cor-secundaria);
+  opacity: 1;
+}
+
+.cliente {
+  margin: 4vh 0;
+}
+
+.texto-cliente {
+  margin: 1.8vh 0;
+}
+
+.carrossel-promocoes {
+  margin: 5vw 0;
+}
+.promocoes-frete-cartao {
+  position: relative;
+  bottom: 60px;
+}
+.promocoes-f-c {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 14.4vh;
+}
+
+.promocoes-fc {
+  display: flex;
+  align-items: center;
+}
+
+.promocoes-fc > figure > img {
+  margin: 0 2vh;
+}
+
+.grid-promocoes-objetos {
+  display: none;
+}
+
+.objeto-grid-img,
+.objeto-grid {
+  text-align: center;
+}
+
+.objeto-grid > figure {
+  display: flex;
+  justify-content: center;
+}
+
+.img-anel:hover {
+  transform: scale(1.1);
+}
+
+.promocao{
+  display: flex;
+  text-align: end;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.obj__promocao>small{
+margin: 0 1vh 0 0;
+}
+
+.obj__promocao{
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 30px;
+  padding: 0.5vh 1vh;
+}
+
+.anel-promocao {
+  margin: 0 15vh;
+}
+
+.search__button_Enviar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  max-width: 100%;
+  border-radius: 30px;
+  height: 50px;
+  background: var(--cor-primaria);
+  margin-left: 8.5vh;
+}
+
+.search__button_Enviar:hover {
+  background: var(--cor-primaria);
+  opacity: 0.8;
+}
+
+.inputQualidadesProd {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  max-width: 100%;
+  border-radius: 30px;
+  height: 50px;
+  background: var(--cor-primaria);
+  margin-left: 8.5vh;
+}
+.search__button_EnviarMSG {
+  height: 44px;
+  background: transparent;
+  border: 0;
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: var(--cor-secundaria);
+  min-width: 200px;
+  cursor: pointer;
+  height: 2.5vh;
+}
+
+.search-ofertas:hover {
+  border: 0.2vh solid black;
+}
+
+.search__input::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: var(--cor-tercenaria);
+}
+
+@media screen and (max-width: 1150px) {
+  .main-joias > .itens-joias {
+    margin-top: 5%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "um tres" "quatro tres" "dois cinco";
+    grid-template-columns: 20%;
+    grid-template-rows: 32.95vw;
+    height: 100%;
+  }
+  #um,
+  #quatro {
+    margin-left: 15vh;
+  }
+  #dois {
+    margin-left: 15vh;
+  }
+  #tres,
+  #cinco {
+    margin-left: 50vh;
+  }
+  #quatro {
+    margin-top: 11.4vh;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .main-joias > .itens-joias {
+    margin: 5% 0 0 0;
+    display: block;
+    text-align: center;
+    height: 100%;
+  }
+  #um,
+  #dois,
+  #tres,
+  #quatro,
+  #cinco {
+    margin: 0;
+  }
+  .nov-dest {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .promocoes-f-c {
+    display: block;
+    text-align: center;
+  }
+  .promocoes-fc {
+    display: flex;
+    justify-content: center;
+  }
+  .ofertas {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .carrossel-promocoes {
+    display: none;
+  }
+  .itens-relatos {
+    display: block;
+  }
+  .texto-cliente {
+    margin: 1.8vh 0;
+  }
+  .grid-promocoes-objetos {
+    margin-top: 5%;
+    display: grid;
+    grid-gap: 10vh;
+    grid-template-areas: "anel-1 anel-2" "anel-3 anel-4";
+    grid-template-rows: 32.95vw;
+    height: 120vh;
+  }
+  .img-anel-grid {
+    width: 20vh;
+  }
+  .grid-promocoes {
+    display: flex;
+    justify-content: center;
+  }
+  .rulers__content {
+    margin-top: 1.8vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .item-joia > img {
+    width: 10vh;
+  }
+  .grid-promocoes-objetos {
+    margin-top: 5%;
+    display: grid;
+    grid-gap: 10vh;
+    grid-template-areas: "anel-1" "anel-2" "anel-3" "anel-4";
+    grid-template-rows: 32.95vw;
+    height: 120vh;
+  }
+}
