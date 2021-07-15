@@ -218,10 +218,10 @@ ul.slick-dots {
 }
 
 .texto-novidades{
-  position: relative;
-  bottom: 42.44604316546763vh;
-  left: 24.46043165467626vh;
-      width: 100px;
+    position: relative;
+    bottom: 36vh;
+    left: 21vh;
+    width: 100px;
 }
 
 .texto-destaque{
