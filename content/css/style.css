@@ -3,12 +3,12 @@
 }
 
 .svg-white {
-  color: white;
+  color: var(--cor-quartenaria);
   margin-right: 1vh;
 }
 
 .svg-white:hover {
-  color: white;
+  color: var(--cor-quartenaria);
 }
 
 .slick-slide img {
