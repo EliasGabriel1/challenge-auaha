@@ -221,12 +221,14 @@ ul.slick-dots {
   position: relative;
   bottom: 42.44604316546763vh;
   left: 24.46043165467626vh;
+      width: 100px;
 }
 
 .texto-destaque{
-  position: relative;
-  bottom: 42.44604316546763vh;
-  left: 26.46vh;
+    position: relative;
+    bottom: 35.6vh;
+    left: 22.46vh;
+    width: 100px;
 }
 
 div.texto-destaque > .text-destaque > h3,.texto-novidades>.text-novidades >h3 {
