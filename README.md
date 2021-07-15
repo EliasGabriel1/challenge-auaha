@@ -17,4 +17,4 @@ separei os arquivos como forma padrão de cascata, style de tela geral (menu e f
 
 Apesar das dificuldades, fora entregue no tempo pedido, apesar da falta de conclusão em alguns detalhes.
 
-Site já hospedado aqui no github pelo link: https://eliasgabriel1.github.io/challenge-auaha/.
+Site já hospedado aqui no github pelo link: https://eliasgabriel1.github.io/challenge-auaha/.# challenge-auaha
